@@ -1,8 +1,8 @@
-<%@ page language="java" contentType="text/html; charset= windows-1251" pageEncoding="windows-1251"%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="windows-1251">
+<meta charset="utf-8">
 <title>Insert title here</title>
 </head>
 <body>

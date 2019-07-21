@@ -26,18 +26,20 @@ public class Servleter extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        
+
+
+		request.setCharacterEncoding("utf-8");
 		String answers[] = {"Да", "Нет", "Возможно"};
 		int i = (int) (Math.random()*3);
 		PrintWriter out = response.getWriter();
-		out.print("Hello World: "+answers[i]);
+		out.print("Hello World: " + answers[i]);
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		request.setCharacterEncoding("IBM-866");
 		doGet(request, response);
 	}
 
