@@ -15,7 +15,7 @@
 
  <form action="#" method="post">
  <input type ="submit" value="Send"/>
- <%= answers[i] %>
+ <%= answers[i]%>
  </form>
 
 </body>

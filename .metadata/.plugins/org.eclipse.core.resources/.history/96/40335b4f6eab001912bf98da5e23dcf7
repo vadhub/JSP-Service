@@ -1,4 +1,3 @@
-<%@page import="java.io.PrintWriter"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,8 +13,8 @@
 <%!int i = (int) (Math.random()*3); %>
 
  <form action="#" method="post">
+ <%answers[i]; %>
  <input type ="submit" value="Send"/>
- <%= answers[i] %>
  </form>
 
 </body>
