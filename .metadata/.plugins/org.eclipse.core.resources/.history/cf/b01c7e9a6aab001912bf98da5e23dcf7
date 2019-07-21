@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Service</title>
+</head>
+<body>
+<h1>Java</h1>
+
+<hr/>
+<%= "ВАся"%>
+
+<%!String answers[] = {"Да", "Нет", "Возможно"}; %>
+<%!int i = (int) (Math.random()*3); %>
+<!--<form action="Servleter">
+	<input type ="submit" value="Send"/>
+</form>-->
+</body>
+</html>
