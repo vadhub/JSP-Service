@@ -1,0 +1,86 @@
+h1{
+	
+	color: #FFFFFF;
+	background: #000;
+	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+
+div.cont{
+	margin-top:10%;
+	margin-bottom:-5%;
+	margin-left:20%;
+	margin-right:20%;
+	border: 8px solid #2E91A4;
+	border-radius: 0px 0px 40px 40px;
+	background: #000;
+}
+@keyframes span-1 {
+  0% {transform:translate(100px);}
+  50% {transform:translate(50px);}
+  100%{transform:translate(0);}
+  from { opacity: 1; }
+    to { opacity: 0; }
+  }
+@keyframes span-2 {
+   0% {transform:translate(0px, 50px);}
+  50% {transform:translate(0, 20px);}
+  100%{transform:translate(0);}
+  from { opacity: 1; }
+    to { opacity: 0; }
+  }
+@keyframes span-3 {
+   0% {transform:translate(0px, -50px);}
+  50% {transform:translate(0, -20px);}
+  100%{transform:translate(0);}
+  from { opacity: 1; }
+    to { opacity: 0; }
+  }
+@keyframes span-4 {
+  0% {transform:translate(-100px);}
+  50% {transform:translate(-50px);}
+  100%{transform:translate(0);}
+  from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  
+  
+.loader {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: loader 2s infinite ease-in-out;
+  color: #FFFFFF;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  
+}
+
+.loader span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0; 
+  
+  
+}
+.loader span:nth-child(1) {
+ 	animation: span-1 5s ease-in-out;
+}
+.loader span:nth-child(2) {
+  animation: span-2 5s ease-in-out;
+}
+.loader span:nth-child(3) {
+  animation: span-3 5s ease-in-out;
+}
+.loader span:nth-child(4) {
+  animation: span-4 5s ease-in-out;
+  }
+
+body{
+	background: url(0.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры *
+}

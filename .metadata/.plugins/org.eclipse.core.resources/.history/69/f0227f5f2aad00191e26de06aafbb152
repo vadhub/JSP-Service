@@ -1,0 +1,3 @@
+docement.getElementById("stopbtn").addEventListener("click", function() {
+	docement.getElementById("stopbtn").style.animation = "";
+})

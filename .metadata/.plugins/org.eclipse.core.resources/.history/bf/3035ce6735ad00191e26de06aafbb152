@@ -1,0 +1,4 @@
+var ani = document.getElementsByTagName('span');
+var btn = document.getElementById('stopbtn');
+
+ani.style.webkitAnimationPlayState = "paused";

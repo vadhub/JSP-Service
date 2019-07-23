@@ -1,0 +1,9 @@
+var ani = document.getElementsByTagName('span');
+var btn = document.getElementById('stopbtn');
+
+ani.addEventListener('webkitAnimationBegin',
+	    function(){
+	        document.getElementById('yourdiv').style.webkitAnimationName = 'none';
+	    }, 
+	    false
+	);

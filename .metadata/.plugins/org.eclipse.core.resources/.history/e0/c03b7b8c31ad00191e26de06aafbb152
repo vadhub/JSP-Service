@@ -1,0 +1,2 @@
+var ani = document.getElementById('anima');
+var btn = document.getElementById('');
