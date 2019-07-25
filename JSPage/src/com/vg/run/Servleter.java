@@ -26,12 +26,7 @@ public class Servleter extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-		String answers[] = {"Да", "Нет", "Возможно"};
-		int i = (int) (Math.random()*3);
 		
-		PrintWriter out = response.getWriter();
-		out.print("Hello World: " + answers[i]);
 	}
 
 	/**

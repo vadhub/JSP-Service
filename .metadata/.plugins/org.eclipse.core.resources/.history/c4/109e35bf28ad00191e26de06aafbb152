@@ -1,3 +1,0 @@
-stopbtn.addEventListener("click", function() {
-	anima.style.animation = "";
-})

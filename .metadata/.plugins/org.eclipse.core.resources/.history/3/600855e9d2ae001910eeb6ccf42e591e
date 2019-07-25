@@ -1,0 +1,8 @@
+var ani = document.getElementById('anima');
+var btn = document.getElementById('stt');
+
+function strt(){
+    btn.onclick=function(){span.className = 'started';
+    alert('alert');
+    }
+  }

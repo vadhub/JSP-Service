@@ -1,0 +1,6 @@
+
+function strt(){
+	alert('alert');
+	document.getElementById('s1').style.animationPlayState = "running";
+    alert('alert');
+  }

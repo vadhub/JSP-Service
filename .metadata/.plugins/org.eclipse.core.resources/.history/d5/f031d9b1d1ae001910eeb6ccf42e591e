@@ -1,0 +1,8 @@
+var ani = document.getElementsByTagName('span');
+var btn = document.getElementById('stopbtn');
+
+function strt(){
+    btn.onclick=function(){span.classname = 'started';
+    alert('alert');
+    }
+  }

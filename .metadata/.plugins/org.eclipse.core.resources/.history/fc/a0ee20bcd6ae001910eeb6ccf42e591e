@@ -1,0 +1,6 @@
+
+function anima_start(){
+	
+	document.getElementById('s1').style.animationPlayState = "running";
+    
+  }

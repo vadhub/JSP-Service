@@ -1,0 +1,7 @@
+var ani = document.getElementsByTagName('span');
+var btn = document.getElementById('stt');
+
+function strt(){
+	 document.getElementById('s1').style.animationPlayState = "running";
+    alert('alert');
+  }
